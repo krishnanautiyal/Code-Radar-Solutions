@@ -4,5 +4,5 @@
 int main() {
     float r;
     scanf("%f",&r);
-    print("Area: %.2f", 3.14*pow(r,2));
+    print("Area: %.2f", 3.14*r*r);
 }
