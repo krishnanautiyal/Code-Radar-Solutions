@@ -6,5 +6,5 @@ int main(){
     scanf("%f",&a);
     scanf("%f",&b);
     float pro = a*b;
-    printf("Product: %.2f", pro)
+    printf("Product: %.2f", pro);
 }
