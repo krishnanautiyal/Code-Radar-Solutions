@@ -2,6 +2,7 @@
 
 int main(){
     int cp,sp;
+    scanf("%d %d",&cp,&sp);
     int net = sp-cp;
     if(net>0)
         printf("Profit");
