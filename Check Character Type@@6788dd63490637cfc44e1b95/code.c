@@ -2,8 +2,9 @@
 int main(){
     char a;
     scanf("%c",&a);
-    if(a>='a' && a<='z')
-        switch(a){
+    if((a>='a' && a<='z') || (a>='A' && a<= 'Z'))
+        char b = (a>='A' && a<='Z') ? a+32:a;
+        switch(b){
             case 'a':
             case 'e':
             case 'i':
