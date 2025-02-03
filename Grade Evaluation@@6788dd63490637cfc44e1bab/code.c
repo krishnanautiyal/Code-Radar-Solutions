@@ -14,7 +14,7 @@ int main() {
         printf("Good");
         case 'C':
         printf("Average");
-        case 'D';
+        case 'D':
         printf("Below Average");
         case 'F':
         printf("Fail");
