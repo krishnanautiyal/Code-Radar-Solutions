@@ -10,7 +10,7 @@ int main(){
     else if((a>='a' && a<='z') || (a>='A' && a<= 'Z'))
         printf("Consonant");
 
-    else if( int(a)>0 && int(a)<10)
+    else if( int(a)>0 || int(a)<10)
         printf("Digit");
 
     else
