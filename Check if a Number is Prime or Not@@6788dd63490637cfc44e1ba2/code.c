@@ -11,6 +11,7 @@ int main() {
         for(int i =2, i*i<=a;i++){
             if(a%i == 0){
                 b=0;
+                break;
             }
                 
         }
