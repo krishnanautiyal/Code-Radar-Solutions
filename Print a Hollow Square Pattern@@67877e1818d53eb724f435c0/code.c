@@ -7,6 +7,7 @@ int main(){
             for(j=1;j<=n;j++){
                 if(j==1 || j==n)
                     printf("*");
+                else printf(" ");
             }
         }
     }
